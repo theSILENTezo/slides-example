@@ -1,0 +1,25 @@
+.wrapper{
+    width: 300px;
+    margin: 17px auto;
+
+}
+
+.slideshow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    flex-direction: column;
+}
+
+/* calls the div within the div */
+    .slideshow div:nth-child(2){
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+#image{
+    width: 300px;
+    height: 300px;
+}
